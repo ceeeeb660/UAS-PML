@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:id="@+id/ivAvatar"
+            android:layout_marginRight="20px"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvId"
+            android:textSize="15sp"
+            android:hint="ID"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFirstName"
+            android:textSize="15sp"
+            android:hint="Nama Depan"
+            android:textStyle="bold"
+            android:layout_below="@+id/tvId"
+            android:layout_toRightOf="@+id/ivAvatar"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvLastName"
+            android:textSize="15sp"
+            android:hint="Nama Belakang"
+            android:textStyle="bold"
+            android:layout_below="@+id/tvFirstName"
+            android:layout_toRightOf="@+id/ivAvatar"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvEmail"
+            android:textSize="15sp"
+            android:hint="Email"
+            android:textStyle="bold"
+            android:layout_above="@+id/tvFirstName"
+            android:layout_toRightOf="@+id/ivAvatar"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/design_default_color_primary"/>
+
+</LinearLayout>

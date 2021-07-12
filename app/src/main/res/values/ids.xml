@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnDelete" type="id" />
+    <item name="editEmail" type="id" />
+    <item name="editNamaDepan" type="id" />
+    <item name="editNamaBelakang" type="id" />
+    <item name="editID" type="id" />
+    <item name="btnUpdate" type="id" />
+    <item name="btnBack" type="id" />
+    <item name="activity_edit" type="id" />
+    <item name="textViewID" type="id" />
+    <item name="textViewEmail" type="id" />
+    <item name="textViewNamaDepan" type="id" />
+    <item name="textViewNamaBelakang" type="id" />
+    <item name="activity_Insert" type="id" />
+</resources>
